@@ -1,0 +1,21 @@
+// Color
+$color-1: #FD4FA5;
+$color-2: #FE985B;
+$color-3: #F5F9FC;
+
+// Gradient
+$gradient-1: linear-gradient(to right, $color-2, $color-1);
+$gradient-1-reverse: linear-gradient(to left, $color-2, $color-1);
+
+// Animation duration
+$animation-duration-1: .2s;
+
+// Media breakpoints
+$breakpoint-laptop: 1366px;
+$breakpoint-tablet: 1024px;
+$breakpoint-mobile: 768px;
+$breakpoint-mobile-low-res: 480px;
+
+
+
+

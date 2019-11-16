@@ -1,0 +1,87 @@
+.testimonials {
+	background-color: #F5F9FC;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}	
+	&__photo-wrapper {
+		padding-top: 35px;
+		padding-left: 90px;
+		display: flex;
+		align-items: flex-end;
+	}
+	&__photo {
+		
+	}
+	&__content {
+		max-width: 615px;
+		padding-right: 70px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	&__quote {
+		margin-top: -15px;
+		font-size: 24px;
+		line-height: 40px;
+		margin-bottom: 10px;
+	}
+	&__name {
+		font-size: 24px;
+		font-weight: 700;
+	}
+	&__position {
+		font-size: 20px;
+	}
+	@media (max-width: $breakpoint-laptop) {
+		&__photo-wrapper {
+			padding-left: 0;
+		}
+		&__content {
+			padding-right: 35px;
+			padding-left: 70px;
+		}
+	}
+	@media (max-width: $breakpoint-tablet) {
+		&__photo {
+			width: 300px;
+		}
+		&__content {
+			max-width: 100%;
+		}
+		&__quote {
+			font-size: 22px;
+			line-height: 35px;
+		}
+	}
+	@media (max-width: $breakpoint-mobile) {
+		&__photo-wrapper {
+			display: none;
+		}
+		&__content {
+			padding: 40px 20px;
+		}
+		&__quote {
+			font-size: 20px;
+			line-height: 35px;
+		}
+		&__name {
+			font-size: 20px;
+		}
+		&__position {
+			font-size: 20px;
+		}
+	}
+	@media (max-width: $breakpoint-mobile-low-res) {
+		&__quote {
+			font-size: 17px;
+			line-height: 25px;
+		}
+		&__name {
+			font-size: 18px;
+		}
+		&__position {
+			font-size: 18px;
+		}
+	}
+}

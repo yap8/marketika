@@ -1,0 +1,17 @@
+.header {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	&__inner {
+		height: 90px;
+		display: flex;
+		align-items: center;
+	}
+	&__logo {
+	}
+	@media (max-width: $breakpoint-tablet) {
+		&__inner {
+			justify-content: center;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	&__item {
+
+	}
+	&__link {
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #454545;
+		transition: color $animation-duration-1 ease;
+		font-weight: 700;
+		&:hover {
+			color: $color-1;
+		}
+	}
+	@media (max-width: $breakpoint-mobile) {
+		&__link {
+			font-weight: 400;
+			text-transform: none;
+		}
+	}
+}

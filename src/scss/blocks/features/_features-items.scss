@@ -1,0 +1,40 @@
+.features-items {
+	display: flex;
+	justify-content: space-between;
+	&__item {
+		width: 30%;
+		max-width: 360px;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+	&__icon {
+		max-height: 60px;
+		margin-bottom: 20px;
+	}
+	&__title {
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	&__text {
+		text-align: center;
+		line-height: 28px;
+		font-weight: 300;
+		color: #6B6B6B;
+	}
+	@media (max-width: $breakpoint-tablet) {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		&__item {
+			width: 45%;
+		}
+	}
+	@media (max-width: $breakpoint-mobile) {
+		&__item {
+			max-width: 400px;
+			width: 80%;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.footer-social {
+	display: flex;
+	&__item {
+		&:not(:last-child) {
+			margin-right: 5px;
+		}
+	}
+	&__link {
+		padding: 5px;
+		display: block;
+	}
+	&__icon {
+		max-height: 18px;
+		max-width: 18px;
+		fill: #454545;
+		transition: fill $animation-duration-1 ease;
+	}
+	&__link:hover &__icon {
+		fill: $color-1;
+	}
+}

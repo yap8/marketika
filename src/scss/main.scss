@@ -1,0 +1,20 @@
+// Helpers
+@import 'helpers/vars';
+@import 'helpers/reset';
+@import 'helpers/global';
+
+// Blocks
+@import 'blocks/conatiner';
+@import 'blocks/logo';
+@import 'blocks/navigation';
+@import 'blocks/button';
+@import 'blocks/form-get-started';
+
+@import 'blocks/header/header';
+@import 'blocks/home/home';
+@import 'blocks/preview/preview';
+@import 'blocks/features/features';
+@import 'blocks/testimonials/testimonials';
+@import 'blocks/plans/plans';
+@import 'blocks/get-started/get-started';
+@import 'blocks/footer/footer';

@@ -1,0 +1,32 @@
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 53px;
+	width: 193px;
+	border-radius: 3px;
+	background-image: $gradient-1;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	border: 0;
+	cursor: pointer;
+	&:hover,
+	&:focus {
+		background-image: $gradient-1-reverse;
+	}
+	&--light {
+		background-image: none;
+		background-color: #fff;
+		color: #454545;
+		transition: background-color $animation-duration-1 ease;
+		&:hover,
+		&:focus {
+			background-image: none;
+			background-color: #e3e3e3;
+		}
+	}
+	&--light-bordered {
+		border: 1px solid #969696;
+	}
+}

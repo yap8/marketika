@@ -1,0 +1,15 @@
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	&__item {
+
+	}
+	&__link {
+		font-size: 14px;
+		color: #454545;
+		transition: color $animation-duration-1 ease;
+		&:hover {
+			color: $color-1;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.form-get-started {
+	display: flex;
+	&__input {
+		height: 53px;
+		width: 65%;
+		margin-right: 40px;
+		background-color: rgba(#fff, .25);
+		border: 0;
+		border-radius: 3px;
+		font-size: 16px;
+		padding-left: 20px;
+		color: #fff;
+		transition: background-color $animation-duration-1 ease;
+		&::placeholder {
+			color: #fff;
+		}
+		&:hover,
+		&:focus {
+			background-color: rgba(#fff, .4);
+		}
+	}
+	&__button {
+		flex-shrink: 0;
+	}
+	@media (max-width: $breakpoint-tablet) {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		&__input {
+			margin: 0 auto;
+			margin-bottom: 16px;
+		}
+	}
+	@media (max-width: $breakpoint-mobile) {
+		&__input {
+			height: 45px;
+			width: 80%;
+		}
+		&__button {
+			height: 45px;
+			width: 80%;
+		}
+	}
+}
