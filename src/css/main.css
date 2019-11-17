@@ -85,14 +85,6 @@ body {
     padding-left: 20px;
     color: #fff;
     transition: background-color 0.2s ease; }
-    .form-get-started__input::-webkit-input-placeholder {
-      color: #fff; }
-    .form-get-started__input::-moz-placeholder {
-      color: #fff; }
-    .form-get-started__input:-ms-input-placeholder {
-      color: #fff; }
-    .form-get-started__input::-ms-input-placeholder {
-      color: #fff; }
     .form-get-started__input::placeholder {
       color: #fff; }
     .form-get-started__input:hover, .form-get-started__input:focus {
