@@ -35,6 +35,8 @@
 		text-align: center;
 	}
 	&__button {
+		left: 50%;
+		transform: translateX(-50%);
 		position: absolute;
 		bottom: 67px;
 	}
